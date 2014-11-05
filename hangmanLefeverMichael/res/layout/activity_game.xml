@@ -1,0 +1,350 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/theme"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text=""
+        android:textColor="#ffff"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageHanging"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:src="@drawable/hang8" />
+
+    <TextView
+        android:id="@+id/answer"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.2"
+        android:gravity="center"
+        android:text=""
+        android:textColor="#FC0000"
+        android:textSize="26sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:padding="0.5dp"
+        android:textSize="22sp"
+        android:weightSum="10" >
+
+        <Button
+            android:id="@+id/buttonA"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.11"
+            android:background="#ffffffff"
+            android:onClick="clickLetter"
+            android:text="@string/a"
+            android:textColor="#F00" />
+
+        <Button
+            android:id="@+id/buttonB"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.11"
+            android:background="#ffffffff"
+            android:onClick="clickLetter"
+            android:text="@string/b"
+            android:textColor="#F00" />
+
+        <Button
+            android:id="@+id/buttonC"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.11"
+            android:background="#ffffffff"
+            android:onClick="clickLetter"
+            android:text="@string/c"
+            android:textColor="#F00" />
+
+        <Button
+            android:id="@+id/buttonD"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.11"
+            android:background="#ffffffff"
+            android:onClick="clickLetter"
+            android:text="@string/d"
+            android:textColor="#F00" />
+
+        <Button
+            android:id="@+id/buttonE"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.11"
+            android:background="#ffffffff"
+            android:onClick="clickLetter"
+            android:text="@string/e"
+            android:textColor="#F00" />
+
+        <Button
+            android:id="@+id/buttonF"
+            android:layout_width="1dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.11"
+            android:background="#ffffffff"
+            android:onClick="clickLetter"
+            android:text="@string/f"
+            android:textColor="#F00" />
+
+        <Button
+            android:id="@+id/buttonG"
+            android:layout_width="1dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.11"
+            android:background="#ffffffff"
+            android:onClick="clickLetter"
+            android:text="@string/g"
+            android:textColor="#F00" />
+
+        <Button
+            android:id="@+id/buttonH"
+            android:layout_width="1dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.11"
+            android:background="#ffffffff"
+            android:onClick="clickLetter"
+            android:text="@string/h"
+            android:textColor="#F00" />
+
+        <Button
+            android:id="@+id/buttonI"
+            android:layout_width="1dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.11"
+            android:background="#ffffffff"
+            android:onClick="clickLetter"
+            android:text="@string/i"
+            android:textColor="#F00" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:padding="0.5dp"
+        android:textSize="22sp"
+        android:weightSum="10" >
+
+        <Button
+            android:id="@+id/buttonJ"
+            android:layout_width="1dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.11"
+            android:background="#ffffffff"
+            android:onClick="clickLetter"
+            android:text="@string/j"
+            android:textColor="#F00" />
+
+        <Button
+            android:id="@+id/buttonK"
+            android:layout_width="1dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.11"
+            android:background="#ffffffff"
+            android:onClick="clickLetter"
+            android:text="@string/k"
+            android:textColor="#F00" />
+
+        <Button
+            android:id="@+id/buttonL"
+            android:layout_width="1dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.11"
+            android:background="#ffffffff"
+            android:onClick="clickLetter"
+            android:text="@string/l"
+            android:textColor="#F00" />
+
+        <Button
+            android:id="@+id/buttonM"
+            android:layout_width="1dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.11"
+            android:background="#ffffffff"
+            android:onClick="clickLetter"
+            android:text="@string/m"
+            android:textColor="#F00" />
+
+        <Button
+            android:id="@+id/buttonN"
+            android:layout_width="1dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.11"
+            android:background="#ffffffff"
+            android:onClick="clickLetter"
+            android:text="@string/n"
+            android:textColor="#F00" />
+
+        <Button
+            android:id="@+id/buttonO"
+            android:layout_width="1dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.11"
+            android:background="#ffffffff"
+            android:onClick="clickLetter"
+            android:text="@string/o"
+            android:textColor="#F00" />
+
+        <Button
+            android:id="@+id/buttonP"
+            android:layout_width="1dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.11"
+            android:background="#ffffffff"
+            android:onClick="clickLetter"
+            android:text="@string/p"
+            android:textColor="#F00" />
+
+        <Button
+            android:id="@+id/buttonQ"
+            android:layout_width="1dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.11"
+            android:background="#ffffffff"
+            android:onClick="clickLetter"
+            android:text="@string/q"
+            android:textColor="#F00" />
+
+        <Button
+            android:id="@+id/buttonR"
+            android:layout_width="1dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.11"
+            android:background="#ffffffff"
+            android:onClick="clickLetter"
+            android:text="@string/r"
+            android:textColor="#F00" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:padding="0.5dp"
+        android:textSize="22sp"
+        android:weightSum="10" >
+
+        <Button
+            android:id="@+id/buttonS"
+            android:layout_width="1dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.11"
+            android:background="#ffffffff"
+            android:onClick="clickLetter"
+            android:text="@string/s"
+            android:textColor="#F00" />
+
+        <Button
+            android:id="@+id/buttonT"
+            android:layout_width="1dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.11"
+            android:background="#ffffffff"
+            android:onClick="clickLetter"
+            android:text="@string/t"
+            android:textColor="#F00" />
+
+        <Button
+            android:id="@+id/buttonU"
+            android:layout_width="1dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.11"
+            android:background="#ffffffff"
+            android:onClick="clickLetter"
+            android:text="@string/u"
+            android:textColor="#F00" />
+
+        <Button
+            android:id="@+id/buttonV"
+            android:layout_width="1dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.11"
+            android:background="#ffffffff"
+            android:onClick="clickLetter"
+            android:text="@string/v"
+            android:textColor="#F00" />
+
+        <Button
+            android:id="@+id/buttonW"
+            android:layout_width="1dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.11"
+            android:background="#ffffffff"
+            android:onClick="clickLetter"
+            android:text="@string/w"
+            android:textColor="#F00" />
+
+        <Button
+            android:id="@+id/buttonX"
+            android:layout_width="1dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.11"
+            android:background="#ffffffff"
+            android:onClick="clickLetter"
+            android:text="@string/x"
+            android:textColor="#F00" />
+
+        <Button
+            android:id="@+id/buttonY"
+            android:layout_width="1dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.11"
+            android:background="#ffffffff"
+            android:onClick="clickLetter"
+            android:text="@string/y"
+            android:textColor="#F00" />
+
+        <Button
+            android:id="@+id/buttonZ"
+            android:layout_width="1dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.11"
+            android:background="#ffffffff"
+            android:onClick="clickLetter"
+            android:text="@string/z"
+            android:textColor="#F00" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:padding="0.5dp"
+        android:textSize="22sp"
+        android:weightSum="10" >
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="1dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="10"
+            android:background="#ffffffff"
+            android:onClick="clickLetter"
+            android:text="next"
+            android:textColor="#F00" />
+
+        </LinearLayout>
+
+</LinearLayout>
